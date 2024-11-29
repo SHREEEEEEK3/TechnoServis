@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4aa551599ce463eb7e62c07c8b0c092" Name="Diagram1">
+        <EntityTypeShape EntityType="NMRequests.Defect" Width="1.5" PointX="0.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.Device" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.Priory" Width="1.5" PointX="0.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.Request" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.Role" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.Stage" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.Status" Width="1.5" PointX="0.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.User" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NMRequests.View_1" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="NMRequests.FK_Request_Defect" ManuallyRouted="false" />
+        <AssociationConnector Association="NMRequests.FK_Request_Device" ManuallyRouted="false" />
+        <AssociationConnector Association="NMRequests.FK_Request_Priory" ManuallyRouted="false" />
+        <AssociationConnector Association="NMRequests.FK_Request_Stage" ManuallyRouted="false" />
+        <AssociationConnector Association="NMRequests.FK_Request_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="NMRequests.FK_Request_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NMRequests.FK_Request_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="NMRequests.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
